@@ -14,7 +14,7 @@ namespace UnitTestApp.Tests.Deserialization
     class Result
     {
         [JsonProperty("descriptions")]
-        public Description[] Description { get; set; }
+        public Description[] Descriptions { get; set; }
     }
 
     class Description
